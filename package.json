@@ -1,0 +1,18 @@
+{
+  "name": "firstplugin",
+  "version": "1.0.0",
+  "description": "my first plugin wordpress react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "zip": "npm-pack-zip . -x node_modules/"
+  },
+  "author": "jamaaldev",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "^23.3.0",
+    "npm-pack-zip": "^1.3.0"
+  }
+}
